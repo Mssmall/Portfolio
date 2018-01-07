@@ -1,17 +1,20 @@
 
 body {
-  background-color: navy;
+  background-color: aliceblue;
 }
 
 h1 {
-  color: white;
+  color: navy;
   position: absolute;
-  left: 120px;
+  left: 250px;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #nav_bar {
     background: #181818;
-    width: 80px;
+    width: 90px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -30,49 +33,39 @@ h1 {
     width: 100%;
 }
 
-ul {
-  list-style-type: none;
-  position: absolute;
-  left: -38px;
-}
-
-li {
-  cursor: pointer;
-  margin: 27px;
-}
-
-a {
+#nav_bar nav a {
   color: white;
+  text-decoration: none;
 }
 
-/* #nav_bar nav a i {
-    transition: all 0.3s ease-out;
-} */
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: 5em;
+    display: block;
+    padding: 20px;
+}
 
-
-
-/* #nav_bar:hover nav a.fas fa-home fa-lg:after {
-    content: 'HOME';
-} */
-
-/* .fas fa-home fa-lg:hover:before {
-    content: 'HOME';
-} */
+*:before {
+  text-rendering: optimizeLegibility;
+}
 
 #nav_bar nav a i.fas fa-home fa-lg {
   content: "/f015";
 }
 
 #nav_bar nav a i.fa-home:hover:before {
-    content: 'HOME';
+  content: 'HOME';
+  font-size: 15px;
 }
 
-#nav_bar nav a i.fas fa-user fa-lg {
+#nav_bar nav a i.far fa-user fa-lg {
   content: "/f007";
 }
 
 #nav_bar nav a i.fa-user:hover:before {
-    content: 'ABOUT';
+  content: 'ABOUT';
+  font-size: 15px;
 }
 
 #nav_bar nav a i.fas fa-newspaper fa-lg {
@@ -80,30 +73,22 @@ a {
 }
 
 #nav_bar nav a i.fa-newspaper:hover:before {
-    content: 'WORK';
+  content: 'WORK';
+  font-size: 15px;
 }
 
-.fa-lg {
-    font-size: 1.33333em;
-    line-height: .75em;
-    vertical-align: -5em;
-    display: block;
-    padding: 20px;
+#nav_bar nav a i.far fa-envelope fa-lg {
+  content: "/f0e0";
 }
 
-a {
-  text-decoration: none;
+#nav_bar nav a i.fa-envelope:hover:before {
+  content: 'CONTACT';
+  font-size: 12px;
 }
 
-#nav_bar nav a i:before {
-  font-size: 5px;
-}
 
-*:before {
-  text-rendering: optimizeLegibility;
-}
 
-#nav_bar nav a:after {
+/* #nav_bar nav a:after {
     content: '';
     font-size: 2px;
     letter-spacing: 2px;
@@ -115,25 +100,4 @@ a {
     opacity: 0;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-}
-
-/* .nav ul li a:before:nth-child(1) {content:"\f015";}
-.nav ul li a:hover:nth-child(1) {content: "Home"; } */
-
-/* .home:hover i {
-  display: none;
-}
-
-.home:hover span {
-  display: inline;
 } */
-
-/* #nav_bar nav a {
-    font-size: 22px;
-    color: #4d4d4e;
-    display: block;
-    line-height: 51px;
-    height: 51px;
-    position: relative;
-    text-decoration: none;
-}
