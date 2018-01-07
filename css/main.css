@@ -5,14 +5,17 @@ body {
 
 h1 {
   color: white;
+  position: absolute;
+  left: 120px;
 }
 
 #nav_bar {
     background: #181818;
-    width: 60px;
+    width: 80px;
     height: 100%;
     position: absolute;
     top: 0;
+    left: 0;
     z-index: 3;
     min-height: 500px;
 }
@@ -27,7 +30,103 @@ h1 {
     width: 100%;
 }
 
+ul {
+  list-style-type: none;
+  position: absolute;
+  left: -38px;
+}
 
+li {
+  cursor: pointer;
+  margin: 27px;
+}
+
+a {
+  color: white;
+}
+
+/* #nav_bar nav a i {
+    transition: all 0.3s ease-out;
+} */
+
+
+
+/* #nav_bar:hover nav a.fas fa-home fa-lg:after {
+    content: 'HOME';
+} */
+
+/* .fas fa-home fa-lg:hover:before {
+    content: 'HOME';
+} */
+
+#nav_bar nav a i.fas fa-home fa-lg {
+  content: "/f015";
+}
+
+#nav_bar nav a i.fa-home:hover:before {
+    content: 'HOME';
+}
+
+#nav_bar nav a i.fas fa-user fa-lg {
+  content: "/f007";
+}
+
+#nav_bar nav a i.fa-user:hover:before {
+    content: 'ABOUT';
+}
+
+#nav_bar nav a i.fas fa-newspaper fa-lg {
+  content: "/f1ea";
+}
+
+#nav_bar nav a i.fa-newspaper:hover:before {
+    content: 'WORK';
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -5em;
+    display: block;
+    padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav_bar nav a i:before {
+  font-size: 5px;
+}
+
+*:before {
+  text-rendering: optimizeLegibility;
+}
+
+#nav_bar nav a:after {
+    content: '';
+    font-size: 2px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+/* .nav ul li a:before:nth-child(1) {content:"\f015";}
+.nav ul li a:hover:nth-child(1) {content: "Home"; } */
+
+/* .home:hover i {
+  display: none;
+}
+
+.home:hover span {
+  display: inline;
+} */
 
 /* #nav_bar nav a {
     font-size: 22px;
@@ -38,7 +137,3 @@ h1 {
     position: relative;
     text-decoration: none;
 }
-
-#nav_bar nav a.active, #nav_bar nav a:hover {
-    color: #08fdd8;
-} */
