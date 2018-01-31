@@ -145,7 +145,14 @@ h3 {
 
 img {
   border: 2px solid black;
-  box-shadow: 2px 2px #d3d3d3;
+  /* box-shadow: 2px 2px #d3d3d3; */
+}
+
+.contactp {
+  position: absolute;
+  left: 200px;
+  border: none;
+  margin-top: 20px;
 }
 
 h4 {
