@@ -147,3 +147,18 @@ img {
   border: 2px solid black;
   box-shadow: 2px 2px #d3d3d3;
 }
+
+h4 {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: purple;
+  padding: 0 5px;
+}
