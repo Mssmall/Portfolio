@@ -1,13 +1,11 @@
 
 body {
-  background-color: paleturquoise;
+  background-color: #f6f7f7;
 }
 
 h2 {
   color: navy;
-  position: absolute;
-  left: 250px;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Josefin Sans', serif;
   text-align: center;
   margin: 0 auto;
   font-size: 4em;
@@ -22,6 +20,17 @@ h3 {
   text-align: center;
   margin: 0 auto;
   font-size: 3em;
+}
+
+.main {
+text-align: center;
+}
+
+.homename {
+  font-family: 'Josefin Sans', serif;
+  font-size: 5em;
+  color: #181818;
+  margin: 0 auto;
 }
 
 #nav_bar {
@@ -125,7 +134,7 @@ h3 {
   }
 
 .grid {
-    padding-top: 100px;
+    padding-top: 20px;
     min-height: 100vh;
     width: 80vw;
     margin: 0 auto;
@@ -144,8 +153,8 @@ h3 {
 }
 
 img {
-  border: 2px solid black;
-  /* box-shadow: 2px 2px #d3d3d3; */
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 20px #d3d3d3;
 }
 
 .contactp {
@@ -168,4 +177,9 @@ a {
   cursor: pointer;
   color: purple;
   padding: 0 5px;
+}
+
+.main {
+  position: absolute;
+  left: 250px;
 }
