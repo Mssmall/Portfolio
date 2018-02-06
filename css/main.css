@@ -153,7 +153,7 @@ text-align: center;
 }
 
 img {
-  /* border: 2px solid black; */
+  border: 0;
   box-shadow: 2px 2px 20px #d3d3d3;
 }
 
@@ -179,7 +179,35 @@ a {
   padding: 0 5px;
 }
 
-.main {
+/* .main {
   position: absolute;
   left: 250px;
+} */
+
+
+/* backup */
+
+#homesec {
+  position: relative;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#aboutmesec {
+  position: relative;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#projectsec {
+  position: relative;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#contactsec {
+  position: relative;
+  border: 1px solid black;
+  margin: 10px;
+
 }
