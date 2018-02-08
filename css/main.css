@@ -11,6 +11,10 @@ h2 {
   font-size: 4em;
 }
 
+h2#line {
+  font: 3em;
+}
+
 h3 {
   color: navy;
   position: absolute;
@@ -22,16 +26,40 @@ h3 {
   font-size: 3em;
 }
 
+h4 {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+h5 {
+  /* font-family: 'Bree Serif', serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
+
 .main {
   text-align: center;
 }
 
+#homesec-href {
+  background-image: url("/Users/liz/Projects/wdi-24/portfolio/css/GOPR0575.JPG");
+  background-size: 100%;
+  filter: grayscale(30%) saturate(30%);
+}
+
 .homename {
   font-family: 'Josefin Sans', serif;
-  font-size: 5em;
+  font-size: 7em;
   color: #181818;
-  margin: 0 auto;
-  /* opacity: 0.9; */
+  margin: 9px;
+  position: relative;
+  left: 100px;
+}
+
+.homeinfo {
+  left: 100px;
+  color: darkblue;
 }
 
 #nav_bar {
@@ -135,7 +163,7 @@ h3 {
   }
 
 .grid {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     min-height: 100vh;
     width: 80vw;
     margin: 0 auto;
@@ -167,19 +195,16 @@ img {
   box-shadow: 2px 2px 20px #d3d3d3;
 }
 
-h4 {
-  font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-}
+
 
 /* backup */
 
 #homesec-href {
   position: relative;
-  border: 1px solid #f6f7f7;
+  border: 1px solid transparent;
   /* margin: 10px; */
   min-height: 800px;
+  width: 100%;
   padding-top: 10px;
 }
 
@@ -224,9 +249,4 @@ h4 {
   margin: 20px;
   font-size: 20px;
   /* font-family: 'Bree Serif', serif; */
-}
-
-h5 {
-  /* font-family: 'Bree Serif', serif; */
-  font-family: 'Josefin Sans', sans-serif;
 }
