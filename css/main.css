@@ -137,7 +137,7 @@ h5 {
   padding-top: 10px;
   margin-left: 8px;
   margin-top: -10px;
-  background-image: url("/Users/liz/Projects/wdi-24/portfolio/css/GOPR0575.JPG");
+  background-image: url("/portfolio/css/GOPR0575.JPG");
   background-size: 100%;
   filter: grayscale(30%) saturate(30%);
 }
@@ -148,7 +148,9 @@ h5 {
   color: #181818;
   margin: 9px;
   position: relative;
-  left: 100px;
+  /* left: 100px; */
+  /* right: 50px; */
+  text-align: center;
 }
 
 .homeinfo {
