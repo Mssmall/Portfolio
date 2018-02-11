@@ -283,8 +283,17 @@ img {
   }
 
   .fa-lg {
-    font-size: 5em;
+    font-size: 3em;
   }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
 
   #homesec-href {
     /* border: 1px solid black; */
@@ -306,15 +315,15 @@ img {
 
   #aboutmesec-href {
     /* border: 1px solid black; */
-    height: 70vh;
+    min-height: 80vh;
     width: 100vw;
     margin: 0 auto;
   }
 
   .aboutitem {
-    padding: 5px;
-    position: relative;
-    margin: 0 auto;
+    /* padding: 5px; */
+    /* position: relative; */
+    /* margin: 0 auto; */
   }
 
   img#profilepic {
@@ -335,5 +344,13 @@ img {
 
   #projectsec-href {
     text-align: center;
+  }
+
+  .column ul li {
+    margin: 40px;
+  }
+
+  .column a {
+    margin: 10px;
   }
 }
