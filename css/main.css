@@ -139,15 +139,15 @@ h5 {
   margin-top: -10px;
   background-image: url("./GOPR0575.JPG");
   background-size: 100%;
-  background-position-x: center;
+  background-position-y: 25%;
   /* background-repeat: no-repeat; */
-  filter: grayscale(30%) saturate(30%);
+  /* filter: grayscale(50%) saturate(40%); */
 }
 
 .homename {
   font-family: 'Josefin Sans', serif;
-  font-size: 12vh;
-  color: #181818;
+  font-size: 11vh;
+  color: navy;
   margin: 11px;
   position: relative;
   text-align: center;
@@ -155,11 +155,14 @@ h5 {
 
 .homeinfo {
   /* left: 100px; */
-  color: darkmagenta;
+  color: firebrick;
   text-align: center;
   right: 267px;
   /* padding-right: 119px; */
   font-size: 6vmin;
+  top: 20vh;
+  box-shadow: 2px 2px 10px;
+  width: 40vw;
 }
 
 #aboutmesec-href {
@@ -172,8 +175,6 @@ h5 {
   height: 100vh;
   width: 100vw;
 }
-
-
 
 .aboutitem {
   /* border: 1px solid black; */
