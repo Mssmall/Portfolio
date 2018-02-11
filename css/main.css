@@ -181,15 +181,9 @@ h5 {
   /* width: 50%; */
 }
 
-.aboutmepic {
-  height: 50vh;
-  width: 20vw;
-  /* border: 1px solid black; */
-}
-
-.aboutmepic img {
-  max-width: 40vw;
-  max-height: 40vh;
+img#profilepic {
+  width: 25vw;
+  height: auto;
 }
 
 .aboutmetext p {
@@ -279,6 +273,19 @@ img {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+  #nav_bar {
+    width: 100px;
+  }
+
+  #nav_bar nav {
+    top: 24%;
+    line-height: 6;
+  }
+
+  .fa-lg {
+    font-size: 5em;
+  }
+
   #homesec-href {
     /* border: 1px solid black; */
     height: 40vh;
@@ -301,23 +308,18 @@ img {
     /* border: 1px solid black; */
     height: 70vh;
     width: 100vw;
+    margin: 0 auto;
   }
 
   .aboutitem {
     padding: 5px;
     position: relative;
+    margin: 0 auto;
   }
 
-  .aboutmepic {
-    height: 4vh;
-    border: 1px solid black;
-    position: relative;
-    margin: auto;
-  }
-  .aboutmepic img {
+  img#profilepic {
     max-width: 25vw;
     max-height: 25vh;
-
   }
 
   .aboutmetext p {
