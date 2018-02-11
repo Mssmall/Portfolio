@@ -10,10 +10,10 @@ h2 {
   margin-top: 0 auto;
   font-size: 4em;
 }
-
+/*
 h2#line {
   font: 3em;
-}
+} */
 
 h3 {
   color: navy;
@@ -189,6 +189,16 @@ img#profilepic {
 .aboutmetext p {
   line-height: 30px;
   word-spacing: 5px;
+  color: navy;
+}
+
+.resume {
+  width: 200px;
+  height: 100px;
+}
+
+.resume a {
+  text-decoration: none;
   color: navy;
 }
 
