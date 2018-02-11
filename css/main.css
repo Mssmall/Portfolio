@@ -123,11 +123,10 @@ h5 {
   font-size: 12px;
 }
 
-/* backup */
-#overall {
+/* #overall {
   height: 100vh;
   width: 100vw;
-}
+} */
 #homesec-href {
   position: relative;
   border: 1px solid transparent;
@@ -273,4 +272,66 @@ img {
   font-family: 'Josefin Sans', sans-serif;
   margin: 20px;
   font-size: 20px;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #homesec-href {
+    /* border: 1px solid black; */
+    height: 40vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
+
+  .homename {
+    font-size: 5vh;
+  }
+
+  .homeinfo {
+    font-size: 3vmin;
+    top: 10vh;
+  }
+
+  #aboutmesec-href {
+    /* border: 1px solid black; */
+    height: 70vh;
+    width: 100vw;
+  }
+
+  .aboutitem {
+    padding: 5px;
+    position: relative;
+  }
+
+  .aboutmepic {
+    height: 4vh;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+  }
+  .aboutmepic img {
+    max-width: 25vw;
+    max-height: 25vh;
+
+  }
+
+  .aboutmetext p {
+    line-height: 24px;
+    word-spacing: 3px;
+    color: navy;
+  }
+
+  .grid {
+    /* border: 1px solid black; */
+    grid-template-columns: 350px;
+  }
+
+  #projectsec-href {
+    text-align: center;
+  }
 }
